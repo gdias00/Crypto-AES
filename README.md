@@ -23,6 +23,15 @@ python encrypt_file.py arquivo_original arquivo_criptografado chave
 
 Certifique-se de fornecer uma chave de 16 caracteres. O arquivo criptografado será salvo no caminho especificado.
 
+Para descriptografar um arquivo, execute o programa decrypt_file.py com os seguintes argumentos:
+
+```bash
+python decrypt_file.py arquivo_criptografado.txt arquivo_descriptografado.txt chave
+```
+* arquivo_criptografado: O caminho do arquivo original que você deseja descriptografar.
+* arquivo_descriptografado: O caminho onde o arquivo descriptografado será salvo.
+* chave: Chave de criptografia de 16 caracteres usada para criptografar.
+
 ## Exemplo
 Aqui está um exemplo de uso:
 
